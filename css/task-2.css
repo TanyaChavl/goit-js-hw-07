@@ -1,0 +1,26 @@
+ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 48px;
+    padding: 100px 156px;
+    list-style: none;
+}
+
+.gallery li {
+    flex: 0 1 calc(33.333% - 24px);
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

@@ -1,0 +1,37 @@
+/* Загальні стилі для сторінки */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+input#name-input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s ease;
+    border: 1px solid #808080;
+    width: 360px;
+    color: #2E2F42;
+    padding-left: 24px;
+}
+
+input#name-input:focus {
+    border-color: #000000;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #2f3640;
+    margin-top: 20px;
+}
+
+#name-output {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}

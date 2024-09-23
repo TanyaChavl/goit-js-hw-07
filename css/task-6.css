@@ -1,0 +1,53 @@
+#controls {
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: line;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#controls input {
+    width: 60px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    width: 148px;
+    height: 40px;
+}
+
+input:hover, input:focus {
+    border-color: #000000;
+}
+
+#controls button[data-create] {
+    padding: 10px 20px;
+    background-color: #4a73f3;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 120px;
+    height: 40px;
+}
+
+#controls button[data-destroy] {
+    padding: 10px 20px;
+    background-color: #f34444;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,26 @@
+.widget {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.67;
+    letter-spacing: 0.64px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #4a73f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 148px;
+}
+
+button:hover, button:focus {
+    opacity: 0.8;
+}

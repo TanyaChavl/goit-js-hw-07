@@ -1,0 +1,41 @@
+ul {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    background-color: #F6F6FE;
+    border-radius: 10px;
+    padding: 20px;
+    list-style: none;
+    width: 360px;
+    margin-bottom: 24px;
+}
+
+.item h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.item ul li {
+    background-color: #F6F6FE;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
